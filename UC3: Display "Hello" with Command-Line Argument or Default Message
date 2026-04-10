@@ -1,0 +1,13 @@
+public class HelloWorld {
+    public static void main(String[] args) {
+        // Define a variable to hold the name
+        String name;
+        if (args.length > 0) {
+            name = args[0];
+        } else {
+            name = "World"; // Default value
+        }
+
+        System.out.println("Hello " + name);
+    }
+}
